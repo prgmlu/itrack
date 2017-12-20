@@ -1,0 +1,6 @@
+{{question.question_title}}
+<br>
+
+<a href="{% url 'next_question' question.nextTrue %}">Yes</a>
+<hr>
+<a href="{% url 'next_question' question.nextFalse %}">No</a>
